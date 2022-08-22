@@ -1,0 +1,16 @@
+### GET all samples
+GET http://localhost:8080/
+
+
+### Create new sample
+POST http://localhost:8080/
+Content-Type: application/json
+
+{"text": "some nice text"}
+
+
+### Create stupid sample
+POST http://localhost:8080/
+Content-Type: application/json
+
+{"text": "some stupid text"}
